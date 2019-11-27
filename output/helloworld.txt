@@ -1,0 +1,592 @@
+Tokenize Process
+Pointer: /,Word: /
+Pointer: /,Word: //
+Pointer:  ,Word: // 
+Pointer: H,Word: // H
+Pointer: e,Word: // He
+Pointer: l,Word: // Hel
+Pointer: l,Word: // Hell
+Pointer: o,Word: // Hello
+Pointer:  ,Word: // Hello 
+Pointer: W,Word: // Hello W
+Pointer: o,Word: // Hello Wo
+Pointer: r,Word: // Hello Wor
+Pointer: l,Word: // Hello Worl
+Pointer: d,Word: // Hello World
+Pointer: !,Word: // Hello World!
+Pointer:  ,Word: // Hello World! 
+Pointer: p,Word: // Hello World! p
+Pointer: r,Word: // Hello World! pr
+Pointer: o,Word: // Hello World! pro
+Pointer: g,Word: // Hello World! prog
+Pointer: r,Word: // Hello World! progr
+Pointer: a,Word: // Hello World! progra
+Pointer: m,Word: // Hello World! program
+Pointer: n,Word: n
+Pointer: a,Word: na
+Pointer: m,Word: nam
+Pointer: e,Word: name
+Pointer: s,Word: names
+Pointer: p,Word: namesp
+Pointer: a,Word: namespa
+Pointer: c,Word: namespac
+Pointer: e,Word: namespace
+Pointer: H,Word: H
+Pointer: e,Word: He
+Pointer: l,Word: Hel
+Pointer: l,Word: Hell
+Pointer: o,Word: Hello
+Pointer: W,Word: HelloW
+Pointer: o,Word: HelloWo
+Pointer: r,Word: HelloWor
+Pointer: l,Word: HelloWorl
+Pointer: d,Word: HelloWorld
+{ -> Operator or Punctuator at Position 45 and Line 3
+Pointer: p,Word: p
+Pointer: u,Word: pu
+Pointer: b,Word: pub
+Pointer: l,Word: publ
+Pointer: i,Word: publi
+Pointer: c,Word: public
+Pointer: a,Word: a
+Pointer: b,Word: ab
+Pointer: s,Word: abs
+Pointer: t,Word: abst
+Pointer: r,Word: abstr
+Pointer: a,Word: abstra
+Pointer: c,Word: abstrac
+Pointer: t,Word: abstract
+Pointer: c,Word: c
+Pointer: l,Word: cl
+Pointer: a,Word: cla
+Pointer: s,Word: clas
+Pointer: s,Word: class
+Pointer: H,Word: H
+Pointer: e,Word: He
+Pointer: l,Word: Hel
+Pointer: l,Word: Hell
+Pointer: o,Word: Hello
+{ -> Operator or Punctuator at Position 83 and Line 5
+Pointer: s,Word: s
+Pointer: t,Word: st
+Pointer: a,Word: sta
+Pointer: t,Word: stat
+Pointer: i,Word: stati
+Pointer: c,Word: static
+Pointer: v,Word: v
+Pointer: o,Word: vo
+Pointer: i,Word: voi
+Pointer: d,Word: void
+Pointer: M,Word: M
+Pointer: a,Word: Ma
+Pointer: i,Word: Mai
+Pointer: n,Word: Main
+( -> Operator or Punctuator at Position 109 and Line 6
+Pointer: s,Word: s
+Pointer: t,Word: st
+Pointer: r,Word: str
+Pointer: i,Word: stri
+Pointer: n,Word: strin
+Pointer: g,Word: string
+[ -> Operator or Punctuator at Position 116 and Line 6
+] -> Operator or Punctuator at Position 117 and Line 6
+Pointer: a,Word: a
+Pointer: r,Word: ar
+Pointer: g,Word: arg
+Pointer: s,Word: args
+) -> Operator or Punctuator at Position 123 and Line 6
+{ -> Operator or Punctuator at Position 133 and Line 7
+Pointer: i,Word: i
+Pointer: n,Word: in
+Pointer: t,Word: int
+[ -> Operator or Punctuator at Position 150 and Line 8
+] -> Operator or Punctuator at Position 151 and Line 8
+Pointer: a,Word: a
+Pointer: =,Word: =
+Pointer: n,Word: n
+Pointer: e,Word: ne
+Pointer: w,Word: new
+Pointer: i,Word: i
+Pointer: n,Word: in
+Pointer: t,Word: int
+[ -> Operator or Punctuator at Position 164 and Line 8
+Pointer: 3,Word: 3
+] -> Operator or Punctuator at Position 166 and Line 8
+; -> Operator or Punctuator at Position 167 and Line 8
+Pointer: b,Word: b
+Pointer: o,Word: bo
+Pointer: o,Word: boo
+Pointer: l,Word: bool
+Pointer: b,Word: b
+Pointer: =,Word: =
+( -> Operator or Punctuator at Position 190 and Line 9
+Pointer: b,Word: b
+Pointer: o,Word: bo
+Pointer: o,Word: boo
+Pointer: l,Word: bool
+) -> Operator or Punctuator at Position 195 and Line 9
+Pointer: a,Word: a
+Pointer: <,Word: <
+Pointer: b,Word: b
+; -> Operator or Punctuator at Position 201 and Line 9
+Pointer: v,Word: v
+Pointer: a,Word: va
+Pointer: r,Word: var
+Pointer: a,Word: a
+Pointer: =,Word: =
+Pointer: 1,Word: 1
+; -> Operator or Punctuator at Position 224 and Line 10
+Pointer: d,Word: d
+Pointer: o,Word: do
+Pointer: u,Word: dou
+Pointer: b,Word: doub
+Pointer: l,Word: doubl
+Pointer: e,Word: double
+Pointer: b,Word: b
+Pointer: =,Word: =
+Pointer: 4,Word: 4
+; -> Operator or Punctuator at Position 250 and Line 11
+Pointer: i,Word: i
+Pointer: f,Word: if
+( -> Operator or Punctuator at Position 267 and Line 12
+Pointer: j,Word: j
+Pointer: a,Word: ja
+Pointer: j,Word: jaj
+Pointer: a,Word: jaja
+Pointer: >,Word: >
+Pointer: 1,Word: 1
+Pointer: 0,Word: 10
+) -> Operator or Punctuator at Position 277 and Line 12
+Pointer: v,Word: v
+Pointer: a,Word: va
+Pointer: r,Word: var
+Pointer: i,Word: i
+Pointer: =,Word: =
+Pointer: 1,Word: 1
+Pointer: %,Word: %
+Pointer: 6,Word: 6
+; -> Operator or Punctuator at Position 292 and Line 12
+Pointer: e,Word: e
+Pointer: l,Word: el
+Pointer: s,Word: els
+Pointer: e,Word: else
+Pointer: e,Word: e
+Pointer: r,Word: er
+Pointer: e,Word: ere
+Pointer: s,Word: eres
+Pointer: R,Word: eresR
+Pointer: a,Word: eresRa
+Pointer: j,Word: eresRaj
+Pointer: a,Word: eresRaja
+Pointer: n,Word: eresRajan
+Pointer: =,Word: =
+Pointer: t,Word: t
+Pointer: r,Word: tr
+Pointer: u,Word: tru
+Pointer: e,Word: true
+; -> Operator or Punctuator at Position 315 and Line 12
+Pointer: i,Word: i
+Pointer: f,Word: if
+( -> Operator or Punctuator at Position 332 and Line 13
+Pointer: a,Word: a
+Pointer: =,Word: =
+Pointer: =,Word: ==
+Pointer: 4,Word: 4
+) -> Operator or Punctuator at Position 339 and Line 13
+Pointer: c,Word: c
+Pointer: +,Word: +
+Pointer: +,Word: ++
+; -> Operator or Punctuator at Position 360 and Line 14
+Pointer: e,Word: e
+Pointer: l,Word: el
+Pointer: s,Word: els
+Pointer: e,Word: else
+{ -> Operator or Punctuator at Position 391 and Line 16
+Pointer: e,Word: e
+Pointer: r,Word: er
+Pointer: e,Word: ere
+Pointer: s,Word: eres
+Pointer: R,Word: eresR
+Pointer: a,Word: eresRa
+Pointer: k,Word: eresRak
+Pointer: u,Word: eresRaku
+Pointer: =,Word: =
+Pointer: f,Word: f
+Pointer: a,Word: fa
+Pointer: l,Word: fal
+Pointer: s,Word: fals
+Pointer: e,Word: false
+; -> Operator or Punctuator at Position 425 and Line 17
+} -> Operator or Punctuator at Position 439 and Line 18
+Pointer: f,Word: f
+Pointer: o,Word: fo
+Pointer: r,Word: for
+( -> Operator or Punctuator at Position 456 and Line 19
+Pointer: i,Word: i
+Pointer: n,Word: in
+Pointer: t,Word: int
+Pointer: j,Word: j
+Pointer: =,Word: =
+Pointer: 0,Word: 0
+; -> Operator or Punctuator at Position 464 and Line 19
+Pointer: z,Word: z
+Pointer: <,Word: <
+Pointer: 0,Word: 0
+; -> Operator or Punctuator at Position 469 and Line 19
+Pointer: i,Word: i
+Pointer: +,Word: +
+Pointer: +,Word: ++
+) -> Operator or Punctuator at Position 474 and Line 19
+{ -> Operator or Punctuator at Position 475 and Line 19
+Pointer: i,Word: i
+Pointer: n,Word: in
+Pointer: t,Word: int
+Pointer: b,Word: b
+Pointer: =,Word: =
+Pointer: 4,Word: 4
+; -> Operator or Punctuator at Position 502 and Line 20
+} -> Operator or Punctuator at Position 516 and Line 21
+Pointer: w,Word: w
+Pointer: h,Word: wh
+Pointer: i,Word: whi
+Pointer: l,Word: whil
+Pointer: e,Word: while
+( -> Operator or Punctuator at Position 536 and Line 22
+Pointer: b,Word: b
+Pointer: =,Word: =
+Pointer: =,Word: ==
+Pointer: 4,Word: 4
+) -> Operator or Punctuator at Position 543 and Line 22
+Pointer: d,Word: d
+Pointer: o,Word: do
+Pointer: N,Word: doN
+Pointer: o,Word: doNo
+Pointer: t,Word: doNot
+Pointer: h,Word: doNoth
+Pointer: i,Word: doNothi
+Pointer: n,Word: doNothin
+Pointer: g,Word: doNothing
+Pointer: =,Word: =
+Pointer: f,Word: f
+Pointer: a,Word: fa
+Pointer: l,Word: fal
+Pointer: s,Word: fals
+Pointer: e,Word: false
+; -> Operator or Punctuator at Position 578 and Line 23
+Pointer: a,Word: a
+Pointer: +,Word: +
+Pointer: +,Word: ++
+; -> Operator or Punctuator at Position 595 and Line 24
+Pointer: p,Word: p
+Pointer: e,Word: pe
+Pointer: p,Word: pep
+Pointer: e,Word: pepe
+Pointer: =,Word: =
+Pointer: 2,Word: 2
+; -> Operator or Punctuator at Position 617 and Line 25
+} -> Operator or Punctuator at Position 627 and Line 26
+} -> Operator or Punctuator at Position 633 and Line 27
+} -> Operator or Punctuator at Position 635 and Line 28
+
+----------Symbol Table-----------
+|Keyword                       	|	namespace
+|Identifier                    	|	HelloWorld
+|Operator or Punctuator        	|	{
+|Keyword                       	|	public
+|Keyword                       	|	abstract
+|Keyword                       	|	class
+|Identifier                    	|	Hello
+|Operator or Punctuator        	|	{
+|Keyword                       	|	static
+|Keyword                       	|	void
+|Identifier                    	|	Main
+|Operator or Punctuator        	|	(
+|Keyword                       	|	string
+|Operator or Punctuator        	|	[
+|Operator or Punctuator        	|	]
+|Identifier                    	|	args
+|Operator or Punctuator        	|	)
+|Operator or Punctuator        	|	{
+|Keyword                       	|	int
+|Operator or Punctuator        	|	[
+|Operator or Punctuator        	|	]
+|Identifier                    	|	a
+|Operator or Punctuator        	|	=
+|Keyword                       	|	new
+|Keyword                       	|	int
+|Operator or Punctuator        	|	[
+|Integer-Literal               	|	3
+|Operator or Punctuator        	|	]
+|Operator or Punctuator        	|	;
+|Keyword                       	|	bool
+|Identifier                    	|	b
+|Operator or Punctuator        	|	=
+|Operator or Punctuator        	|	(
+|Keyword                       	|	bool
+|Operator or Punctuator        	|	)
+|Identifier                    	|	a
+|Operator or Punctuator        	|	<
+|Identifier                    	|	b
+|Operator or Punctuator        	|	;
+|Identifier                    	|	var
+|Identifier                    	|	a
+|Operator or Punctuator        	|	=
+|Integer-Literal               	|	1
+|Operator or Punctuator        	|	;
+|Keyword                       	|	double
+|Identifier                    	|	b
+|Operator or Punctuator        	|	=
+|Integer-Literal               	|	4
+|Operator or Punctuator        	|	;
+|Keyword                       	|	if
+|Operator or Punctuator        	|	(
+|Identifier                    	|	jaja
+|Operator or Punctuator        	|	>
+|Integer-Literal               	|	10
+|Operator or Punctuator        	|	)
+|Identifier                    	|	var
+|Identifier                    	|	i
+|Operator or Punctuator        	|	=
+|Integer-Literal               	|	1
+|Operator or Punctuator        	|	%
+|Integer-Literal               	|	6
+|Operator or Punctuator        	|	;
+|Keyword                       	|	else
+|Identifier                    	|	eresRajan
+|Operator or Punctuator        	|	=
+|Keyword                       	|	true
+|Operator or Punctuator        	|	;
+|Keyword                       	|	if
+|Operator or Punctuator        	|	(
+|Identifier                    	|	a
+|Operator or Punctuator        	|	==
+|Integer-Literal               	|	4
+|Operator or Punctuator        	|	)
+|Identifier                    	|	c
+|Operator or Punctuator        	|	++
+|Operator or Punctuator        	|	;
+|Keyword                       	|	else
+|Operator or Punctuator        	|	{
+|Identifier                    	|	eresRaku
+|Operator or Punctuator        	|	=
+|Keyword                       	|	false
+|Operator or Punctuator        	|	;
+|Operator or Punctuator        	|	}
+|Keyword                       	|	for
+|Operator or Punctuator        	|	(
+|Keyword                       	|	int
+|Identifier                    	|	j
+|Operator or Punctuator        	|	=
+|Integer-Literal               	|	0
+|Operator or Punctuator        	|	;
+|Identifier                    	|	z
+|Operator or Punctuator        	|	<
+|Integer-Literal               	|	0
+|Operator or Punctuator        	|	;
+|Identifier                    	|	i
+|Operator or Punctuator        	|	++
+|Operator or Punctuator        	|	)
+|Operator or Punctuator        	|	{
+|Keyword                       	|	int
+|Identifier                    	|	b
+|Operator or Punctuator        	|	=
+|Integer-Literal               	|	4
+|Operator or Punctuator        	|	;
+|Operator or Punctuator        	|	}
+|Keyword                       	|	while
+|Operator or Punctuator        	|	(
+|Identifier                    	|	b
+|Operator or Punctuator        	|	==
+|Integer-Literal               	|	4
+|Operator or Punctuator        	|	)
+|Identifier                    	|	doNothing
+|Operator or Punctuator        	|	=
+|Keyword                       	|	false
+|Operator or Punctuator        	|	;
+|Identifier                    	|	a
+|Operator or Punctuator        	|	++
+|Operator or Punctuator        	|	;
+|Identifier                    	|	pepe
+|Operator or Punctuator        	|	=
+|Integer-Literal               	|	2
+|Operator or Punctuator        	|	;
+|Operator or Punctuator        	|	}
+|Operator or Punctuator        	|	}
+|Operator or Punctuator        	|	}
+
+> 
+  regex 
+  namespace_declaration|> 
+    string:1:1 'namespace'
+    identifier|regex:1:11 'HelloWorld'
+    char:1:22 '{'
+    class_declaration|> 
+      class_modifier|string:1:24 'public'
+      class_modifier|string:1:31 'abstract'
+      string:1:40 'class'
+      identifier|regex:1:46 'Hello'
+      char:1:52 '{'
+      main_method|> 
+        string:1:54 'static'
+        string:1:61 'void'
+        string:1:66 'Main'
+        char:1:71 '('
+        string:1:73 'string'
+        char:1:80 '['
+        char:1:82 ']'
+        string:1:84 'args'
+        char:1:89 ')'
+        char:1:91 '{'
+        statement|declaration_statement|> 
+          var_type|type|> 
+            predefined_type|string:1:93 'int'
+            char:1:97 '['
+            char:1:99 ']'
+          id_or_assignment|assignment_statement|> 
+            identifier|regex:1:101 'a'
+            char:1:103 '='
+            expression|array_creation_expression|> 
+              string:1:105 'new'
+              predefined_type|string:1:109 'int'
+              char:1:113 '['
+              integer_literal|regex:1:115 '3'
+              char:1:117 ']'
+            char:1:119 ';'
+        statement|declaration_statement|> 
+          var_type|type|predefined_type|string:1:121 'bool'
+          id_or_assignment|assignment_statement|> 
+            identifier|regex:1:126 'b'
+            char:1:128 '='
+            expression|cast_expression|> 
+              char:1:130 '('
+              predefined_type|string:1:132 'bool'
+              char:1:137 ')'
+              expression|binary_op_expression|> 
+                binary_op_alt|identifier|regex:1:139 'a'
+                binary_operator|char:1:141 '<'
+                expression|identifier|regex:1:143 'b'
+            char:1:145 ';'
+        statement|declaration_statement|> 
+          var_type|string:1:147 'var'
+          id_or_assignment|assignment_statement|> 
+            identifier|regex:1:151 'a'
+            char:1:153 '='
+            expression|literal_expression|integer_literal|regex:1:155 '1'
+            char:1:157 ';'
+        statement|declaration_statement|> 
+          var_type|type|predefined_type|string:1:159 'double'
+          id_or_assignment|assignment_statement|> 
+            identifier|regex:1:166 'b'
+            char:1:168 '='
+            expression|literal_expression|integer_literal|regex:1:170 '4'
+            char:1:172 ';'
+        statement|if_statement|> 
+          string:1:174 'if'
+          char:1:177 '('
+          boolean_expression|expression|binary_op_expression|> 
+            binary_op_alt|identifier|regex:1:179 'jaja'
+            binary_operator|char:1:184 '>'
+            expression|literal_expression|integer_literal|regex:1:186 '10'
+          char:1:189 ')'
+          flow_structure_body|statement|declaration_statement|> 
+            var_type|string:1:191 'var'
+            id_or_assignment|assignment_statement|> 
+              identifier|regex:1:195 'i'
+              char:1:197 '='
+              expression|binary_op_expression|> 
+                binary_op_alt|literal_expression|integer_literal|regex:1:199 '1'
+                binary_operator|char:1:201 '%'
+                expression|literal_expression|integer_literal|regex:1:203 '6'
+              char:1:205 ';'
+          else_clause|> 
+            string:1:207 'else'
+            flow_structure_body|statement|assignment_statement|> 
+              identifier|regex:1:212 'eresRajan'
+              char:1:222 '='
+              expression|literal_expression|bool_literal|string:1:224 'true'
+              char:1:229 ';'
+        statement|if_statement|> 
+          string:1:231 'if'
+          char:1:234 '('
+          boolean_expression|expression|binary_op_expression|> 
+            binary_op_alt|identifier|regex:1:236 'a'
+            binary_operator|string:1:238 '=='
+            expression|literal_expression|integer_literal|regex:1:241 '4'
+          char:1:243 ')'
+          flow_structure_body|statement|expression_statement|> 
+            expression|post_op_expression|> 
+              binary_op_alt|identifier|regex:1:245 'c'
+              string:1:247 '++'
+            char:1:250 ';'
+          else_clause|> 
+            string:1:252 'else'
+            flow_structure_body|flow_alt|> 
+              char:1:257 '{'
+              statement|assignment_statement|> 
+                identifier|regex:1:259 'eresRaku'
+                char:1:268 '='
+                expression|literal_expression|bool_literal|string:1:270 'false'
+                char:1:276 ';'
+              char:1:278 '}'
+        statement|for_statement|> 
+          string:1:280 'for'
+          char:1:284 '('
+          declaration_statement|> 
+            var_type|type|predefined_type|string:1:286 'int'
+            id_or_assignment|assignment_statement|> 
+              identifier|regex:1:290 'j'
+              char:1:292 '='
+              expression|literal_expression|integer_literal|regex:1:294 '0'
+              char:1:296 ';'
+          boolean_expression|expression|binary_op_expression|> 
+            binary_op_alt|identifier|regex:1:298 'z'
+            binary_operator|char:1:300 '<'
+            expression|literal_expression|integer_literal|regex:1:302 '0'
+          char:1:304 ';'
+          iterator_section|> 
+            identifier|regex:1:306 'i'
+            string:1:308 '++'
+          char:1:311 ')'
+          flow_structure_body|flow_alt|> 
+            char:1:313 '{'
+            statement|declaration_statement|> 
+              var_type|type|predefined_type|string:1:315 'int'
+              id_or_assignment|assignment_statement|> 
+                identifier|regex:1:319 'b'
+                char:1:321 '='
+                expression|literal_expression|integer_literal|regex:1:323 '4'
+                char:1:325 ';'
+            char:1:327 '}'
+        statement|while_statement|> 
+          string:1:329 'while'
+          char:1:335 '('
+          boolean_expression|expression|binary_op_expression|> 
+            binary_op_alt|identifier|regex:1:337 'b'
+            binary_operator|string:1:339 '=='
+            expression|literal_expression|integer_literal|regex:1:342 '4'
+          char:1:344 ')'
+          flow_structure_body|statement|assignment_statement|> 
+            identifier|regex:1:346 'doNothing'
+            char:1:356 '='
+            expression|literal_expression|bool_literal|string:1:358 'false'
+            char:1:364 ';'
+        statement|expression_statement|> 
+          expression|post_op_expression|> 
+            binary_op_alt|identifier|regex:1:366 'a'
+            string:1:368 '++'
+          char:1:371 ';'
+        statement|assignment_statement|> 
+          identifier|regex:1:373 'pepe'
+          char:1:378 '='
+          expression|literal_expression|integer_literal|regex:1:380 '2'
+          char:1:382 ';'
+        char:1:384 '}'
+      char:1:386 '}'
+    char:1:388 '}'
+  regex 
+
+Type: int[] Identifier: a Value: newint[3]
+Type: bool Identifier: b Value: (bool)a<b
+Type: var Identifier: a Value: 1
+Type: double Identifier: b Value: 4
+Type: int Identifier: b Value: 4
