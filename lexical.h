@@ -329,7 +329,7 @@ void tokenize(FILE *fp, struct Token tokens[MAX]) {
             }
             if (isOperatorDelim(ch)) {
                 append(word, ch);
-                printf("Pointer: %c,Word: %s\n", ch, word);
+                // printf("Pointer: %c,Word: %s\n", ch, word);
                 operatorFlag = 1;
             }
             if (isPunctuator(ch)) {
@@ -342,12 +342,12 @@ void tokenize(FILE *fp, struct Token tokens[MAX]) {
                 strncpy(t.lexem, tempOperator, sizeof(t.lexem));
                 tokens[index] = t;
                 index++;
-                printf("%s -> Operator or Punctuator at Position %d and Line %d\n", tempOperator, count, line);
+                // printf("%s -> Operator or Punctuator at Position %d and Line %d\n", tempOperator, count, line);
                 tempOperator[0] = '\0';
             }
         } else if (ch != '\n') {
             append(word, ch);
-            printf("Pointer: %c,Word: %s\n", ch, word);
+            // printf("Pointer: %c,Word: %s\n", ch, word);
         } else if (ch == '\n') {
             line++;
         }

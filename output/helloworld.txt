@@ -132,7 +132,7 @@ Pointer: b,Word: b
 Pointer: v,Word: v
 Pointer: a,Word: va
 Pointer: r,Word: var
-Pointer: a,Word: a
+Pointer: c,Word: c
 Pointer: =,Word: =
 Pointer: 1,Word: 1
 ; -> Operator or Punctuator at Position 224 and Line 10
@@ -142,7 +142,7 @@ Pointer: u,Word: dou
 Pointer: b,Word: doub
 Pointer: l,Word: doubl
 Pointer: e,Word: double
-Pointer: b,Word: b
+Pointer: d,Word: d
 Pointer: =,Word: =
 Pointer: 4,Word: 4
 ; -> Operator or Punctuator at Position 250 and Line 11
@@ -241,7 +241,7 @@ Pointer: +,Word: ++
 Pointer: i,Word: i
 Pointer: n,Word: in
 Pointer: t,Word: int
-Pointer: b,Word: b
+Pointer: e,Word: e
 Pointer: =,Word: =
 Pointer: 4,Word: 4
 ; -> Operator or Punctuator at Position 502 and Line 20
@@ -329,12 +329,12 @@ Pointer: 2,Word: 2
 |Identifier                    	|	b
 |Operator or Punctuator        	|	;
 |Identifier                    	|	var
-|Identifier                    	|	a
+|Identifier                    	|	c
 |Operator or Punctuator        	|	=
 |Integer-Literal               	|	1
 |Operator or Punctuator        	|	;
 |Keyword                       	|	double
-|Identifier                    	|	b
+|Identifier                    	|	d
 |Operator or Punctuator        	|	=
 |Integer-Literal               	|	4
 |Operator or Punctuator        	|	;
@@ -388,7 +388,7 @@ Pointer: 2,Word: 2
 |Operator or Punctuator        	|	)
 |Operator or Punctuator        	|	{
 |Keyword                       	|	int
-|Identifier                    	|	b
+|Identifier                    	|	e
 |Operator or Punctuator        	|	=
 |Integer-Literal               	|	4
 |Operator or Punctuator        	|	;
@@ -469,14 +469,14 @@ Pointer: 2,Word: 2
         statement|declaration_statement|> 
           var_type|string:1:147 'var'
           id_or_assignment|assignment_statement|> 
-            identifier|regex:1:151 'a'
+            identifier|regex:1:151 'c'
             char:1:153 '='
             expression|literal_expression|integer_literal|regex:1:155 '1'
             char:1:157 ';'
         statement|declaration_statement|> 
           var_type|type|predefined_type|string:1:159 'double'
           id_or_assignment|assignment_statement|> 
-            identifier|regex:1:166 'b'
+            identifier|regex:1:166 'd'
             char:1:168 '='
             expression|literal_expression|integer_literal|regex:1:170 '4'
             char:1:172 ';'
@@ -552,7 +552,7 @@ Pointer: 2,Word: 2
             statement|declaration_statement|> 
               var_type|type|predefined_type|string:1:315 'int'
               id_or_assignment|assignment_statement|> 
-                identifier|regex:1:319 'b'
+                identifier|regex:1:319 'e'
                 char:1:321 '='
                 expression|literal_expression|integer_literal|regex:1:323 '4'
                 char:1:325 ';'
@@ -585,8 +585,8 @@ Pointer: 2,Word: 2
     char:1:388 '}'
   regex 
 
-Type: int[] Identifier: a Value: newint[3]
-Type: bool Identifier: b Value: (bool)a<b
-Type: var Identifier: a Value: 1
-Type: double Identifier: b Value: 4
-Type: int Identifier: b Value: 4
+Type: int[] Identifier: a
+Type: bool Identifier: b
+Type: var Identifier: c
+Type: double Identifier: d
+Type: int Identifier: e

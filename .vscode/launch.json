@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "./compile",
-            "args": ["programs/helloworld.cs"],
+            "args": ["programs/test.cs"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

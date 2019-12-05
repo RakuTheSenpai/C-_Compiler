@@ -69,7 +69,7 @@ var_type: <type> | \"var\" ; \
 id_or_assignment:  <identifier> ';' | <assignment_statement> ; \
 declaration_statement: <var_type> <id_or_assignment> ; \
 assignment_statement:  <identifier> ( '[' <expression> ']')? '=' <expression> ';' ; \
-predefined_type: \"bool\" | \"byte\" | \"char\" | \"decimal\" | \"double\" | \"float\" | \"int\" | \"long\" | \"object\" | \"sbyte\" | \"short\" | \"string\" | \"uint\" | \"ulong\" | \"ushort\" ;\
+predefined_type: \"bool\" | \"byte\" | \"char\"  | \"double\" | \"float\" | \"int\" | \"long\" | \"sbyte\" | \"short\" | \"string\" | \"uint\" | \"ulong\" | \"ushort\" ;\
 type: <predefined_type> ('[' ']')? ; \
 expression : <unary_op_expression> | <binary_op_expression> | <post_op_expression> | <cast_expression> | '(' <expression> ')' | <size_of_expression> | <array_creation_expression> | <literal_expression> | <array_indexing_expression> | <identifier> ; \
 cast_expression : '(' <predefined_type> ')' <expression> ; \
@@ -84,7 +84,7 @@ literal_expression : <string_literal> | <bool_literal> | <real_literal> | <integ
 binary_operator : \">>\"| \"<<\" | \"<=\" | \"==\" | \">=\" | \"!=\"| '+' | '*' | '/' | '%' | '-' | '<' | '>' ; \
 array_indexing_expression : <identifier> '[' <expression> ']' ; \
 unary_operator :   \"++\" | \"--\" | '!' | '~' | '+' | '-' ; \
-string_literal : /\".*\"/ ; \
+string_literal : '\"' /[ a-zA-Z0-9_]*/ '\"' ; \
 bool_literal : \"true\" | \"false\"  ; \
 real_literal : (<integer_literal>)? '.' <integer_literal> ; \
 integer_literal : /[0-9]+/ ; \

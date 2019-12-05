@@ -22,7 +22,7 @@ int main(int argc, char **argv)
     }
 
     tokenize(fp, tokens);
-    printTable(tokens);
+    // printTable(tokens);
     mpc_result_t r = makeAST(tokens);
     semantic(r.output, tableEntries);
 }
